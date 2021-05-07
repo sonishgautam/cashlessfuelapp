@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receipt">
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="642dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="13dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="106dp"
+            android:layout_height="33dp"
+            android:text="Time: 8:12:29" />
+
+        <TextView
+            android:id="@+id/fuelReceipt"
+            android:layout_width="207dp"
+            android:layout_height="30dp"
+            android:text="Receipt no: 102843749" />
+
+        <TextView
+            android:id="@+id/fuelQuantity"
+            android:layout_width="206dp"
+            android:layout_height="30dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fuelType"
+            android:layout_width="204dp"
+            android:layout_height="28dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Date: 11/10/2020" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="105dp"
+            android:layout_height="31dp"
+            android:text="Receipt" />
+
+        <TextView
+            android:id="@+id/fuelPrice"
+            android:layout_width="342dp"
+            android:layout_height="171dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="88dp"
+            android:layout_height="37dp"
+            android:text="Back" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
